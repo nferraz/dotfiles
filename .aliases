@@ -1,0 +1,9 @@
+if [[ "$(command -v ls)" =~ "coreutils" ]]; then
+    alias ls='ls --color=auto -Fh'
+else
+    alias ls='ls -GFh'
+fi
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'

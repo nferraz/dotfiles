@@ -1,0 +1,30 @@
+# "Formatting. Indentation. Style. Code layout. Whatever you choose to call it,
+# it’s one of the most contentious aspects of programming discipline. More
+# and bloodier wars have been fought over code layout than over just about
+# any other aspect of coding.
+#
+# What is the best practice here? Should you use classic Kernighan and Ritchie
+# style? Or go with BSD code formatting? Or adopt the layout scheme specified
+# by the GNU project? Or conform to the Slashcode coding guidelines?
+#
+# Of course not! Everyone knows that <insert your personal coding style here>
+# is the One True Layout Style, the only sane choice, as ordained by <insert
+# your favorite Programming Deity here> since Time Immemorial! Any other
+# choice is manifestly absurd, willfully heretical, and self-evidently a
+# Work of Darkness!
+#
+# That’s precisely the problem. When deciding on a layout style, it’s
+# hard to decide where rational choices end and rationalized habits begin."
+#
+# -- Damian Conway, in Ten Essential Development Practices
+#    https://www.perl.com/pub/2005/07/14/bestpractices.html/
+
+--maximum-line-length=120
+--cuddled-else
+--no-blanks-before-comments
+--continuation-indentation=4
+--output-line-ending=unix
+--no-outdent-labels
+--no-outdent-long-lines
+--no-space-for-semicolon
+--standard-error-output
