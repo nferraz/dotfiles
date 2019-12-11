@@ -146,6 +146,7 @@ nnoremap <Leader>m /<C-R>/
 nnoremap <Leader>s :%s//gc<LEFT><LEFT><LEFT>
 xnoremap <Leader>s :s//gc<LEFT><LEFT><LEFT>
 
+"===== MULTIPLE WINDOWS ========================================================
 set laststatus=2        " Always display the status line
 set equalalways         " Make all windows the same size when adding/removing
 set splitbelow          " Put the new window below
